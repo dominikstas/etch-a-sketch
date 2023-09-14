@@ -1,5 +1,6 @@
 let color = "black";
 
+
 function create(size) {
     let content = document.querySelector(".content");
     let squares = content.querySelectorAll("div");
