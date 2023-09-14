@@ -7,8 +7,8 @@ function create(size) {
     content.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     content.style.gridTemplateRows = `repeat(${size}, 1fr)`;
 
-    let amount = size*size;
-    for(let i = 0; i < amount; i++) {
+    let AmountOfSquares = size*size;
+    for(let i = 0; i < AmountOfSquares; i++) {
         let square = document.createElement('div');
         square.style.backgroundColor = "white";
         content.insertAdjacentElement("beforeend", square);
