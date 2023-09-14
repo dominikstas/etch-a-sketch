@@ -1,3 +1,5 @@
+let color = "black";
+
 function create(size) {
     let content = document.querySelector(".content");
     let squares = content.querySelectorAll("div");
@@ -11,7 +13,7 @@ function create(size) {
         square.style.backgroundColor = "white";
         content.insertAdjacentElement("beforeend", square);
         square.addEventListener('mouseover', ()=> {
-            square.style.backgroundColor = "black"}
+            square.style.backgroundColor = color}
             );
 }}
 
@@ -24,4 +26,8 @@ function changeSize(input) {
     else {
         alert("Invalid number of squares");
     }
+}
+
+function changeColor(choice){
+    color = choice;
 }
