@@ -31,3 +31,4 @@ function changeSize(input) {
 function changeColor(choice){
     color = choice;
 }
+

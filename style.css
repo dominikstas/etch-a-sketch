@@ -1,7 +1,6 @@
 * {
     background: beige;
-}
-
+} 
 
 .container {
     display: flex;
@@ -11,7 +10,7 @@
 }
 
 h1 {
-    color: black;
+    color: grey;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -48,8 +47,4 @@ h1 {
     border-color: grey;
     height: 21.2px;
     width: 21.2px;
-}
-
-.dm {
-    border-color: grey;
 }
